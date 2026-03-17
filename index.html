@@ -2,251 +2,239 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ByteCrack Training Institute</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
-  <!-- NAV -->
+  <!-- ===== NAVBAR ===== -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="#home" class="nav-logo">
-        <span class="logo-icon"><i class="fa-solid fa-terminal"></i></span>
-        <span class="logo-text">Byte<span class="accent">Crack</span></span>
+      <a class="nav-logo" href="#home">
+        <span class="logo-icon"><img src="logo.jpeg" class="logo-img" alt="ByteCrack Logo"></span>
+        <span>Byte<span class="accent">cracK</span></span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#courses" class="nav-link">Courses</a></li>
-        <li><a href="#features" class="nav-link">Features</a></li>
-        <li><a href="#trainers" class="nav-link">Trainers</a></li>
-        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a href="#courses" class="nav-cta">Enroll Now</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <a href="#courses" class="btn btn-nav">Enroll Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- ===== HERO ===== -->
   <section class="hero" id="home">
-    <div class="hero-grid-bg"></div>
-    <div class="hero-orbs">
-      <div class="orb orb-1"></div>
-      <div class="orb orb-2"></div>
-      <div class="orb orb-3"></div>
-    </div>
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
     <div class="hero-content">
-      <div class="hero-badge">
-        <span class="badge-dot"></span> Admissions Open 2025
-      </div>
+      <div class="hero-badge"><i class="fa-solid fa-bolt"></i> India's Premier IT Training Institute</div>
       <h1 class="hero-title">
-        <span class="title-line">ByteCrack</span>
-        <span class="title-line gradient-text">Training Institute</span>
+        <span class="line">BytecracK</span>
+        <span class="line accent">Training</span>
+        <span class="line">Institute</span>
       </h1>
       <p class="hero-tagline">Building Future Tech Professionals</p>
-      <p class="hero-desc">
-        Industry-aligned IT training with real-world projects, expert mentors, and guaranteed placement support. Start your tech career journey today.
-      </p>
-      <div class="hero-actions">
-        <a href="#courses" class="btn btn-primary">
-          <i class="fa-solid fa-rocket"></i> Enroll Now
-        </a>
-        <a href="#courses" class="btn btn-outline">
-          <i class="fa-solid fa-book-open"></i> View Courses
-        </a>
+      <p class="hero-desc">Empowering students with industry-ready skills in software development, testing, AI, and beyond. Learn from real professionals, build real projects.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-graduation-cap"></i> Enroll Now</a>
+        <a href="#courses" class="btn btn-outline"><i class="fa-solid fa-book-open"></i> View Courses</a>
       </div>
       <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-num">500+</span>
-          <span class="stat-label">Students Trained</span>
-        </div>
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Students Enrolled</span></div>
         <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">10+</span>
-          <span class="stat-label">Courses Offered</span>
-        </div>
+        <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Courses Offered</span></div>
         <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">95%</span>
-          <span class="stat-label">Placement Rate</span>
-        </div>
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Expert Trainers</span></div>
       </div>
     </div>
     <div class="hero-visual">
       <div class="code-window">
         <div class="window-bar">
           <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-          <span class="window-title">bytecrack.js</span>
+          <span class="window-title">bytecrack.py</span>
         </div>
-        <div class="code-content" id="codeTyper"></div>
+        <div class="code-body">
+          <div class="code-line"><span class="kw">def</span> <span class="fn">build_future</span>(student):</div>
+          <div class="code-line indent"><span class="str">"""ByteCrack Training"""</span></div>
+          <div class="code-line indent"><span class="kw">skills</span> = [<span class="str">'Python'</span>,</div>
+          <div class="code-line indent2"><span class="str">'SQL'</span>, <span class="str">'Java'</span>,</div>
+          <div class="code-line indent2"><span class="str">'Testing'</span>, <span class="str">'AI'</span>]</div>
+          <div class="code-line indent"><span class="kw">for</span> skill <span class="kw">in</span> skills:</div>
+          <div class="code-line indent2">student.<span class="fn">learn</span>(skill)</div>
+          <div class="code-line indent"><span class="kw">return</span> student.<span class="fn">get_hired</span>()</div>
+          <div class="code-line">&nbsp;</div>
+          <div class="code-line"><span class="cmt"># Start your journey today!</span></div>
+          <div class="code-line"><span class="fn">build_future</span>(<span class="str">"You"</span>) <span class="cursor">|</span></div>
+        </div>
       </div>
-      <div class="floating-card card-java">
-        <i class="fa-brands fa-java"></i> Java Full Stack
-      </div>
-      <div class="floating-card card-web">
-        <i class="fa-brands fa-html5"></i> Web Development
-      </div>
-      <div class="floating-card card-db">
-        <i class="fa-solid fa-database"></i> SQL(Structured Query Language)
-      </div>
-      <div class="floating-card card-android">
-        <i class="fa-brands fa-android"></i> Android Application Development
-      </div>
+      <div class="floating-badge badge-1"><i class="fa-brands fa-python"></i> Python</div>
+      <div class="floating-badge badge-2"><i class="fa-solid fa-database"></i> SQL</div>
+      <div class="floating-badge badge-3"><i class="fa-brands fa-java"></i> Java</div>
+      <div class="floating-badge badge-4"><i class="fa-solid fa-robot"></i> AI</div>
     </div>
-    <div class="scroll-indicator">
+    <div class="hero-scroll-hint">
       <span>Scroll to explore</span>
-      <div class="scroll-line"></div>
+      <i class="fa-solid fa-chevron-down"></i>
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- ===== WHY BYTECRACK (Highlights) ===== -->
+  <section class="highlights">
+    <div class="container">
+      <div class="highlights-grid">
+        <div class="highlight-card"><i class="fa-solid fa-laptop-code"></i><h4>Hands-On Learning</h4><p>Learn by doing with real-world projects</p></div>
+        <div class="highlight-card"><i class="fa-solid fa-certificate"></i><h4>Certificate Programs</h4><p>Industry-recognized certifications</p></div>
+        <div class="highlight-card"><i class="fa-solid fa-briefcase"></i><h4>Placement Support</h4><p>Dedicated placement & career guidance</p></div>
+        <div class="highlight-card"><i class="fa-solid fa-headset"></i><h4>Mentor Support</h4><p>1-on-1 mentoring from senior devs</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
   <section class="about section" id="about">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">About Us</span>
-        <h2 class="section-title">Who We Are</h2>
-        <p class="section-subtitle">Shaping careers through technology and practical learning since day one.</p>
+        <span class="section-tag">Who We Are</span>
+        <h2>About <span class="accent">ByteCrack</span></h2>
+        <p>Where passion for technology meets structured, professional training</p>
       </div>
       <div class="about-grid">
-        <div class="about-visual">
-          <div class="about-image-wrap">
-            <div class="about-img-placeholder">
-              <i class="fa-solid fa-laptop-code"></i>
-            </div>
-            <div class="about-badge-exp">
-              <span class="exp-num">5+</span>
-              <span class="exp-text">Years of Excellence</span>
-            </div>
+        <div class="about-text">
+          <p class="about-lead">ByteCrack Training Institute is a premier IT education center dedicated to transforming aspiring tech enthusiasts into industry-ready professionals. We operate remotely and from our KMC College hub, making quality education accessible to all.</p>
+          <p>Founded with a mission to bridge the gap between academic learning and industry expectations, ByteCrack offers hands-on, project-based training that prepares students for real-world challenges.</p>
+          <div class="about-points">
+            <div class="about-point"><i class="fa-solid fa-check-circle"></i><span>Industry-experienced trainers with live project exposure</span></div>
+            <div class="about-point"><i class="fa-solid fa-check-circle"></i><span>Small batch sizes for personalised attention</span></div>
+            <div class="about-point"><i class="fa-solid fa-check-circle"></i><span>Flexible online & offline learning modes</span></div>
+            <div class="about-point"><i class="fa-solid fa-check-circle"></i><span>Regular mock interviews and assessments</span></div>
           </div>
         </div>
-        <div class="about-content">
-          <p class="about-intro">
-            ByteCrack Training Institute is a premier IT training center committed to bridging the gap between academic knowledge and industry requirements. We offer hands-on, project-based training to students and working professionals who aspire to excel in the technology sector.
-          </p>
-          <div class="vm-cards">
-            <div class="vm-card">
-              <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
-              <div>
-                <h4>Our Vision</h4>
-                <p>To become the most trusted IT training destination in the region by empowering learners with industry-ready skills.</p>
-              </div>
-            </div>
-            <div class="vm-card">
-              <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
-              <div>
-                <h4>Our Mission</h4>
-                <p>Deliver quality education through experienced mentors, real projects, and continuous student support until successful placement.</p>
-              </div>
-            </div>
+        <div class="about-cards">
+          <div class="vm-card">
+            <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
+            <h3>Our Vision</h3>
+            <p>To become Maharashtra's most trusted IT training institute, producing world-class software professionals who drive innovation.</p>
           </div>
-          <div class="about-differentiators">
-            <h4>Why ByteCrack Stands Apart</h4>
-            <ul class="diff-list">
-              <li><i class="fa-solid fa-check-circle"></i> Small batch sizes for personalised attention</li>
-              <li><i class="fa-solid fa-check-circle"></i> Industry-experienced trainers — not just educators</li>
-              <li><i class="fa-solid fa-check-circle"></i> Live project exposure from week one</li>
-              <li><i class="fa-solid fa-check-circle"></i> Flexible weekend & evening batches</li>
-              <li><i class="fa-solid fa-check-circle"></i> Dedicated placement cell with tie-ups</li>
-            </ul>
+          <div class="vm-card accent-card">
+            <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Our Mission</h3>
+            <p>To deliver high-quality, affordable, and industry-aligned training that empowers every student with the skills to succeed in the IT sector.</p>
+          </div>
+          <div class="vm-card">
+            <div class="vm-icon"><i class="fa-solid fa-star"></i></div>
+            <h3>Why We're Different</h3>
+            <p>Real projects, real mentors, real opportunities. We don't just teach — we build careers from the ground up.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COURSES -->
+  <!-- ===== COURSES ===== -->
   <section class="courses section" id="courses">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">Our Programs</span>
-        <h2 class="section-title">Courses Offered</h2>
-        <p class="section-subtitle">Choose from our industry-aligned programs designed by working professionals.</p>
+        <span class="section-tag">What We Offer</span>
+        <h2>Our <span class="accent">Courses</span></h2>
+        <p>Comprehensive programs designed to take you from beginner to professional</p>
       </div>
       <div class="courses-grid">
 
         <div class="course-card" data-aos="fade-up">
-          <div class="course-icon sql"><i class="fa-solid fa-database"></i></div>
-          <div class="course-body">
-            <h3 class="course-name">SQL (Structured Query Language)</h3>
-            <p class="course-desc">Master relational databases, complex queries, joins, stored procedures, and performance tuning used in real enterprise applications.</p>
-            <div class="course-meta">
-              <span><i class="fa-regular fa-clock"></i> 4 Weeks</span>
-              <span class="course-fee">INR.1500</span>
-            </div>
+          <div class="course-icon"><i class="fa-solid fa-database"></i></div>
+          <div class="course-tag">Database</div>
+          <h3>SQL Fundamentals</h3>
+          <p>Master database design, queries, joins, stored procedures, and database management for enterprise applications.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 4 Weeks</span>
+            <span class="course-fee">₹1,500</span>
           </div>
           <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <div class="course-card" data-aos="fade-up" data-delay="100">
-          <div class="course-icon manual"><i class="fa-solid fa-bug"></i></div>
-          <div class="course-body">
-            <h3 class="course-name">Software Testing</h3>
-            <p class="course-desc">Learn SDLC, STLC, test case writing, defect lifecycle, Agile methodologies, and industry tools used by QA engineers globally.</p>
-            <div class="course-meta">
-              <span><i class="fa-regular fa-clock"></i> 6 Weeks</span>
-              <span class="course-fee">INR.2200</span>
-            </div>
+        <div class="course-card" data-aos="fade-up">
+          <div class="course-icon"><i class="fa-brands fa-python"></i></div>
+          <div class="course-tag">Programming</div>
+          <h3>Python Programming</h3>
+          <p>From basics to advanced Python — covering OOP, libraries, automation scripts, data handling, and real-world applications.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 6 Weeks</span>
+            <span class="course-fee">₹2,200</span>
           </div>
           <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <div class="course-card featured" data-aos="fade-up" data-delay="200">
-          <div class="featured-label">Popular</div>
-          <div class="course-icon selenium"><i class="fa-solid fa-robot"></i></div>
-          <div class="course-body">
-            <h3 class="course-name">Advance Automation Testing</h3>
-            <p class="course-desc">Selenium WebDriver, TestNG, Maven, POM Framework, CI/CD pipelines — everything a modern automation engineer needs.</p>
-            <div class="course-meta">
-              <span><i class="fa-regular fa-clock"></i> 8 Weeks</span>
-              <span class="course-fee">INR.1500</span>
-            </div>
+        <div class="course-card" data-aos="fade-up">
+          <div class="course-icon"><i class="fa-solid fa-bug"></i></div>
+          <div class="course-tag">QA</div>
+          <h3>Software Testing</h3>
+          <p>Learn SDLC, STLC, test case writing, defect tracking, Agile testing, and all manual testing methodologies.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 6 Weeks</span>
+            <span class="course-fee">₹2,200</span>
           </div>
           <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <div class="course-card" data-aos="fade-up" data-delay="300">
-          <div class="course-icon java"><i class="fa-brands fa-java"></i></div>
-          <div class="course-body">
-            <h3 class="course-name">Java Full Stack</h3>
-            <p class="course-desc">OOP concepts, Collections, Exception Handling, Multithreading, JDBC, and design patterns to build a solid programming foundation.</p>
-            <div class="course-meta">
-              <span><i class="fa-regular fa-clock"></i> 8 Weeks</span>
-              <span class="course-fee">INR.2200</span>
-            </div>
+        <div class="course-card featured-card" data-aos="fade-up">
+          <div class="featured-ribbon">Popular</div>
+          <div class="course-icon"><i class="fa-solid fa-flask-vial"></i></div>
+          <div class="course-tag">Automation</div>
+          <h3>Automation Testing (Selenium)</h3>
+          <p>Master Selenium WebDriver, TestNG, Maven, POM framework, and CI/CD integration for automated QA pipelines.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 8 Weeks</span>
+            <span class="course-fee">₹2,200</span>
           </div>
           <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <div class="course-card" data-aos="fade-up" data-delay="400">
-          <div class="course-icon web"><i class="fa-brands fa-html5"></i></div>
-          <div class="course-body">
-            <h3 class="course-name">Web Development</h3>
-            <p class="course-desc">Build modern websites with HTML5, CSS3, Flexbox, Grid, JavaScript ES6+, and create responsive, interactive web applications.</p>
-            <div class="course-meta">
-              <span><i class="fa-regular fa-clock"></i> 10 Weeks</span>
-              <span class="course-fee">INR.2200</span>
-            </div>
+        <div class="course-card" data-aos="fade-up">
+          <div class="course-icon"><i class="fa-brands fa-java"></i></div>
+          <div class="course-tag">Full Stack</div>
+          <h3>Java Full Stack</h3>
+          <p>Build complete applications with Core Java, Spring Boot, Hibernate, REST APIs, and React/Angular frontend.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 12 Weeks</span>
+            <span class="course-fee">₹2,200</span>
           </div>
           <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <div class="course-card" data-aos="fade-up" data-delay="500">
-          <div class="course-icon android"><i class="fa-brands fa-android"></i></div>
-          <div class="course-body">
-            <h3 class="course-name">Android App Dev</h3>
-            <p class="course-desc">Develop native Android applications using Java/Kotlin, Android Studio, Firebase, REST APIs, and publish on the Play Store.</p>
-            <div class="course-meta">
-              <span><i class="fa-regular fa-clock"></i> 12 Weeks</span>
-              <span class="course-fee">INR.2200</span>
-            </div>
+        <div class="course-card" data-aos="fade-up">
+          <div class="course-icon"><i class="fa-brands fa-react"></i></div>
+          <div class="course-tag">Web Dev</div>
+          <h3>Web Development</h3>
+          <p>MERN & MEAN stack development — MongoDB, Express, React/Angular, Node.js, and full-stack deployment.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 12 Weeks</span>
+            <span class="course-fee">₹2,200</span>
+          </div>
+          <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="course-card" data-aos="fade-up">
+          <div class="course-icon"><i class="fa-solid fa-robot"></i></div>
+          <div class="course-tag">Trending</div>
+          <h3>Artificial Intelligence</h3>
+          <p>Explore ML algorithms, neural networks, deep learning, NLP, and build intelligent AI models using Python.</p>
+          <div class="course-meta">
+            <span><i class="fa-regular fa-clock"></i> 10 Weeks</span>
+            <span class="course-fee">Contact Us</span>
           </div>
           <a href="#contact" class="btn btn-course">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -255,98 +243,97 @@
     </div>
   </section>
 
-  <!-- FEATURES -->
+  <!-- ===== TRAINING FEATURES ===== -->
   <section class="features section" id="features">
-    <div class="features-bg"></div>
     <div class="container">
-      <div class="section-header light">
-        <span class="section-tag light-tag">Why Train With Us</span>
-        <h2 class="section-title light-title">Training Features</h2>
-        <p class="section-subtitle light-sub">Everything you need to launch your IT career — all under one roof.</p>
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Training <span class="accent">Features</span></h2>
+        <p>Everything you need to launch a successful IT career</p>
       </div>
       <div class="features-grid">
         <div class="feature-item">
-          <div class="feat-icon"><i class="fa-solid fa-industry"></i></div>
+          <div class="feature-icon"><i class="fa-solid fa-industry"></i></div>
           <h4>Industry-Level Training</h4>
-          <p>Curriculum crafted alongside working professionals to match what companies actually need today.</p>
+          <p>Curriculum designed with current industry standards and employer expectations in mind.</p>
         </div>
         <div class="feature-item">
-          <div class="feat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <div class="feature-icon"><i class="fa-solid fa-diagram-project"></i></div>
           <h4>Real-World Projects</h4>
-          <p>Every course includes live project work so your portfolio speaks before you do in interviews.</p>
+          <p>Work on live projects that simulate actual workplace scenarios and add value to your portfolio.</p>
         </div>
         <div class="feature-item">
-          <div class="feat-icon"><i class="fa-solid fa-comments"></i></div>
+          <div class="feature-icon"><i class="fa-solid fa-comments"></i></div>
           <h4>Interview Preparation</h4>
-          <p>Mock interviews, HR rounds, aptitude drills, and technical question banks curated by experts.</p>
+          <p>Dedicated mock interview sessions, aptitude training, and HR round preparation.</p>
         </div>
         <div class="feature-item">
-          <div class="feat-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div class="feature-icon"><i class="fa-solid fa-file-lines"></i></div>
           <h4>Resume Building</h4>
-          <p>Get a professional, ATS-friendly resume reviewed by our placement team before you apply anywhere.</p>
+          <p>Professional resume crafting guidance tailored to your target role and skill set.</p>
         </div>
         <div class="feature-item">
-          <div class="feat-icon"><i class="fa-solid fa-handshake"></i></div>
+          <div class="feature-icon"><i class="fa-solid fa-handshake"></i></div>
           <h4>Placement Guidance</h4>
-          <p>Job referrals, company tie-ups, and direct interview opportunities once you complete the course.</p>
+          <p>Job referrals, company tie-ups, and placement support until you land your first job.</p>
         </div>
         <div class="feature-item">
-          <div class="feat-icon"><i class="fa-solid fa-flask"></i></div>
+          <div class="feature-icon"><i class="fa-solid fa-flask"></i></div>
           <h4>Hands-On Labs</h4>
-          <p>Dedicated lab sessions with software tools, test environments, and project servers fully set up.</p>
+          <p>Dedicated lab sessions with real tools, IDEs, and environments used in the industry.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TRAINERS -->
+  <!-- ===== TRAINERS ===== -->
   <section class="trainers section" id="trainers">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Meet the Experts</span>
-        <h2 class="section-title">Our Trainers</h2>
-        <p class="section-subtitle">Learn from professionals who have built real software, not just taught it.</p>
+        <h2>Our <span class="accent">Trainers</span></h2>
+        <p>Learn from professionals with real industry experience</p>
       </div>
       <div class="trainers-grid">
 
         <div class="trainer-card">
-          <div class="trainer-avatar" style="background: linear-gradient(135deg, #0f62fe, #0043ce)">
-            <span>NK</span>
+          <div class="trainer-avatar">
+            <div class="avatar-circle">PY</div>
           </div>
           <div class="trainer-info">
-            <h4>Nikhil Khade</h4>
-            <span class="trainer-role">Java & Backend Specialist</span>
-            <p>8+ years in enterprise Java development at MNCs. Trained 200+ students who now work at TCS, Infosys, and startups.</p>
+            <h3>Prem Yerunkar</h3>
+            <span class="trainer-role">Software Developer · Tester · Project Manager</span>
+            <p>A seasoned professional with extensive experience in software development, QA, and project management. Prem brings real-world project knowledge to every session, helping students understand industry workflows end-to-end.</p>
             <div class="trainer-skills">
-              <span>Core Java</span><span>Spring Boot</span><span>Microservices</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="trainer-card featured-trainer">
-          <div class="trainer-avatar" style="background: linear-gradient(135deg, #00b4d8, #0077b6)">
-            <span>PY</span>
-          </div>
-          <div class="trainer-info">
-            <h4>Prem Yerunkar</h4>
-            <span class="trainer-role">QA & Automation Lead</span>
-            <p>7 years of SDET experience across banking and e-commerce projects. Selenium & TestNG certification trainer.</p>
-            <div class="trainer-skills">
-              <span>Selenium</span><span>TestNG</span><span>Hybrid Framework</span>
+              <span>Java</span><span>Testing</span><span>Project Mgmt</span><span>Agile</span>
             </div>
           </div>
         </div>
 
         <div class="trainer-card">
-          <div class="trainer-avatar" style="background: linear-gradient(135deg, #06d6a0, #048a81)">
-            <span>HY</span>
+          <div class="trainer-avatar">
+            <div class="avatar-circle hy">HY</div>
           </div>
           <div class="trainer-info">
-            <h4>Harshada Yadav</h4>
-            <span class="trainer-role">Python & AI</span>
-            <p>Full-stack developer with 6 years at product companies. Specialises in modern JavaScript and Android development.</p>
+            <h3>Harshada Yadav</h3>
+            <span class="trainer-role">AI & Python Expert</span>
+            <p>Harshada is a specialist in Artificial Intelligence and Python programming. With deep expertise in ML frameworks and data science tools, she guides students through cutting-edge AI concepts with practical, applied learning.</p>
             <div class="trainer-skills">
-              <span>Core Python Concepts</span><span>Android</span><span>Firebase</span>
+              <span>Python</span><span>AI/ML</span><span>Deep Learning</span><span>NLP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-avatar">
+            <div class="avatar-circle nk">NK</div>
+          </div>
+          <div class="trainer-info">
+            <h3>Nikhil Khade</h3>
+            <span class="trainer-role">Software Associate</span>
+            <p>Nikhil is an enthusiastic software professional focused on helping students grasp foundational and intermediate concepts. He specialises in database management, web technologies, and hands-on coding sessions.</p>
+            <div class="trainer-skills">
+              <span>SQL</span><span>Web Dev</span><span>Selenium</span><span>Git</span>
             </div>
           </div>
         </div>
@@ -355,203 +342,182 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- ===== TESTIMONIALS ===== -->
   <section class="testimonials section" id="testimonials">
-    <div class="test-bg-gradient"></div>
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">Success Stories</span>
-        <h2 class="section-title">What Our Students Say</h2>
-        <p class="section-subtitle">Real words from real people who transformed their careers at ByteCrack.</p>
+        <span class="section-tag">Student Stories</span>
+        <h2>What Our <span class="accent">Students</span> Say</h2>
+        <p>Real feedback from real students who transformed their careers</p>
       </div>
-      <div class="testimonials-slider">
-        <div class="testimonials-track" id="testTrack">
+      <div class="testimonials-slider" id="testimonialsSlider">
 
-          <div class="test-card">
-            <div class="Darshana Dhanawade">★★★★★</div>
-            <p class="test-text">"ByteCrack completely changed my career. The Manual & Automation Testing course was so practical. Within 3 months of completing it, I landed a job at a Pune-based product company. The mock interviews were the real game-changer!"</p>
-            <div class="test-author">
-              <div class="test-avatar">SP</div>
-              <div>
-                <strong>Sneha Pawar</strong>
-                <span>QA Engineer, Navi Mumbai</span>
-              </div>
-            </div>
+        <div class="testimonial-card active">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"ByteCrack completely changed my career trajectory. The Selenium automation course was incredibly detailed and practical. Within 2 months of completing the course, I got placed as a QA Engineer!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DD</div>
+            <div><strong>Darshana Dhanawade</strong><span>QA Engineer, Navi Mumbai</span></div>
           </div>
-
-          <div class="test-card">
-            <div class="test-stars">★★★★★</div>
-            <p class="test-text">"I tried online courses before but nothing matched the clarity I got from ByteCrack's Core Java training. Rahul sir's explanation of OOP and Collections is unmatched. Already cleared 2 technical rounds at my dream company!"</p>
-            <div class="test-author">
-              <div class="test-avatar">VD</div>
-              <div>
-                <strong>Rutuja Patil</strong>
-                <span>Java Developer, Mumbai</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="test-card">
-            <div class="test-stars">★★★★★</div>
-            <p class="test-text">"The Web Development course covers everything you actually need in the industry. I built 3 live projects during the course and my portfolio got me interviews immediately. The resume review session alone is worth the fee!"</p>
-            <div class="test-author">
-              <div class="test-avatar">RJ</div>
-              <div>
-                <strong>Rohan Joshi</strong>
-                <span>Frontend Developer, Mumbai</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="test-card">
-            <div class="test-stars">★★★★★</div>
-            <p class="test-text">"I enrolled for SQL and the trainer covered everything from basics to advanced stored procedures. The course fee is very affordable and the quality is exceptional. Highly recommend ByteCrack to anyone starting their IT journey."</p>
-            <div class="test-author">
-              <div class="test-avatar">NK</div>
-              <div>
-                <strong>Neha Kulkarni</strong>
-                <span>Database Analyst, Akola</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="test-card">
-            <div class="test-stars">★★★★★</div>
-            <p class="test-text">"ByteCrack's Android course was intense and incredibly practical. We built a complete app by the end of the course. The placement team helped me prepare and I got selected at a startup in Hyderabad in my first attempt!"</p>
-            <div class="test-author">
-              <div class="test-avatar">AS</div>
-              <div>
-                <strong>Akash Solanke</strong>
-                <span>Android Developer, Hyderabad</span>
-              </div>
-            </div>
-          </div>
-
         </div>
-        <div class="slider-controls">
-          <button class="slider-btn" id="prevBtn"><i class="fa-solid fa-chevron-left"></i></button>
-          <div class="slider-dots" id="sliderDots"></div>
-          <button class="slider-btn" id="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"The Java Full Stack course at ByteCrack is top-notch. Prem sir's teaching style is exceptional — he explains complex topics so clearly. The live projects gave me real confidence in interviews."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">PP</div>
+            <div><strong>Pranali Ovhal</strong><span>IT Trainer</span></div>
+          </div>
         </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"Harshada ma'am's AI & Python course is worth every penny. She breaks down machine learning concepts beautifully. I built my first ML model in just 3 weeks of joining!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div><strong>Mansi Dalvi</strong><span>MCS Student</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"I had zero coding experience when I joined the SQL course. ByteCrack's structured approach and supportive trainers helped me land my first job as a database administrator in just 4 months!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">NK</div>
+            <div><strong>Nandini Pasale</strong><span>BSC CS Student</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"The MERN stack course is outstanding. Nikhil sir is very patient and thorough. ByteCrack's resume building and mock interview support made my job hunt so much smoother. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SD</div>
+            <div><strong>Sahil Desai</strong><span>Bachelor of Computer Science Student</span></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="testimonial-controls">
+        <button id="prevBtn" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+        <button id="nextBtn" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- ===== CONTACT ===== -->
   <section class="contact section" id="contact">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Get In Touch</span>
-        <h2 class="section-title">Contact Us</h2>
-        <p class="section-subtitle">Ready to start your tech journey? Reach out — we'll help you choose the right path.</p>
+        <h2>Contact <span class="accent">Us</span></h2>
+        <p>Ready to start your tech journey? Reach out to us today</p>
       </div>
       <div class="contact-grid">
         <div class="contact-info">
           <h3>ByteCrack Training Institute</h3>
-          <p class="contact-tagline">Walk in. Ask questions. Start learning.</p>
-          <div class="contact-items">
-            <div class="contact-item">
-              <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
-              <div>
-                <strong>Address</strong>
-                <p>Plot No. 432, Khopoli, Near Khopoli Railway Station,<br>Raigad, Maharashtra – 410203</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
-              <div>
-                <strong>Phone</strong>
-                <p><a href="tel:+91 9766423202">+91 98765 43210</a></p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
-              <div>
-                <strong>Email</strong>
-                <p><a href="mailto:info@bytecrack.in">info@bytecrack.in</a></p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
-              <div>
-                <strong>Timings</strong>
-                <p>Mon – Sat: 9:00 AM – 8:00 PM</p>
-              </div>
+          <p class="contact-intro">Have questions about our courses? Want to enroll? We're here to help you take the first step toward your tech career.</p>
+
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Address</strong>
+              <span>Remote Online · KMC College, Maharashtra</span>
             </div>
           </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <strong>Phone / WhatsApp</strong>
+              <span><a href="tel:+919561167859">+91 9561167859</a></span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>Website</strong>
+              <span><a href="https://www.bytecrack.in/" target="_blank">www.bytecrack.in</a></span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+            <div>
+              <strong>Instagram</strong>
+              <span><a href="https://www.instagram.com/byte_crack/" target="_blank">@byte_crack</a></span>
+            </div>
+          </div>
+
           <div class="contact-social">
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/byte_crack/" target="_blank" class="social-btn instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919561167859" target="_blank" class="social-btn whatsapp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.bytecrack.in/" target="_blank" class="social-btn website" title="Website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
-        <div class="contact-form-wrap">
-          <form class="contact-form" id="contactForm" novalidate>
-            <h3>Send Us a Message</h3>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
             <div class="form-group">
-              <label for="name">Full Name</label>
-              <input type="text" id="name" placeholder="e.g. Omkar Ingale" required />
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="you@example.com" required />
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="+91 00000 00000" />
-              </div>
+              <label for="name">Full Name <span>*</span></label>
+              <input type="text" id="name" placeholder="Your full name" required/>
             </div>
             <div class="form-group">
-              <label for="course">Course Interested In</label>
+              <label for="email">Email Address <span>*</span></label>
+              <input type="email" id="email" placeholder="your@email.com" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX"/>
+            </div>
+            <div class="form-group">
+              <label for="course">Course Interested</label>
               <select id="course">
-                <option value="">-- Select a Course --</option>
-                <option>SQL</option>
+                <option value="">Select a course</option>
+                <option>SQL Fundamentals</option>
+                <option>Python Programming</option>
                 <option>Software Testing</option>
-                <option>Automation Testing with Selenium</option>
+                <option>Automation Testing (Selenium)</option>
                 <option>Java Full Stack</option>
-		<option>Artificial Intelligence</option>
-                <option>Web Development</option>
-                <option>Python</option>
+                <option>Web Development (MERN/MEAN)</option>
+                <option>Artificial Intelligence</option>
               </select>
             </div>
-            <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea id="message" rows="4" placeholder="Tell us about your background or any questions you have..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-full">
-              <i class="fa-solid fa-paper-plane"></i> Send Message
-            </button>
-            <div class="form-success" id="formSuccess">
-              <i class="fa-solid fa-circle-check"></i> Thank you! We'll get back to you within 24 hours.
-            </div>
-          </form>
-        </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message <span>*</span></label>
+            <textarea id="message" rows="5" placeholder="Tell us about yourself and your learning goals..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i> Thank you! We'll get back to you within 24 hours.
+          </div>
+        </form>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="footer-top">
-      <div class="container footer-grid">
+    <div class="container">
+      <div class="footer-grid">
         <div class="footer-brand">
-          <a href="#home" class="nav-logo">
-            <span class="logo-icon"><i class="fa-solid fa-terminal"></i></span>
-            <span class="logo-text">Byte<span class="accent">Crack</span></span>
+          <a class="footer-logo" href="#home">
+            <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+            Byte<span class="accent">Crack</span>
           </a>
-          <p>Building future tech professionals through hands-on, industry-aligned training in Akola, Maharashtra.</p>
+          <p>Building Future Tech Professionals. Quality IT training for a digital world.</p>
           <div class="footer-social">
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/byte_crack/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919561167859" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.bytecrack.in/" target="_blank" title="Website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
         <div class="footer-col">
-          <h5>Quick Links</h5>
+          <h4>Quick Links</h4>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
@@ -562,36 +528,37 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Our Courses</h5>
+          <h4>Our Courses</h4>
           <ul>
-            <li><a href="#courses">SQL</a></li>
-            <li><a href="#courses">Manual Testing</a></li>
+            <li><a href="#courses">SQL Fundamentals</a></li>
+            <li><a href="#courses">Python Programming</a></li>
+            <li><a href="#courses">Software Testing</a></li>
             <li><a href="#courses">Automation Testing</a></li>
-            <li><a href="#courses">Core Java</a></li>
+            <li><a href="#courses">Java Full Stack</a></li>
             <li><a href="#courses">Web Development</a></li>
-            <li><a href="#courses">Android Development</a></li>
+            <li><a href="#courses">Artificial Intelligence</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Contact Info</h5>
-          <ul class="footer-contact-list">
-            <li><i class="fa-solid fa-location-dot"></i> Akola, Maharashtra – 444001</li>
-            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
-            <li><i class="fa-solid fa-envelope"></i> info@bytecrack.in</li>
+          <h4>Contact Info</h4>
+          <ul class="footer-contact">
+            <li><i class="fa-solid fa-location-dot"></i> Remote Online · KMC College, MH</li>
+            <li><i class="fa-solid fa-phone"></i><a href="tel:+919561167859">+91 9561167859</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="https://www.bytecrack.in/" target="_blank">www.bytecrack.in</a></li>
+            <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/byte_crack/" target="_blank">@byte_crack</a></li>
           </ul>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <p>© ByteCrack Training Institute. All rights reserved. Designed with <i class="fa-solid fa-C"></i> Ciera Tech Services.</p>
+      <div class="footer-bottom">
+        <p>© ByteCrack Training Institute · All Rights Reserved</p>
+        <p class="footer-credit">Designed by <a href="#" target="_blank">Ciera Tech Services</a></p>
       </div>
     </div>
   </footer>
 
-  <!-- Scroll to top -->
-  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
-    <i class="fa-solid fa-arrow-up"></i>
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
   </button>
 
   <script src="script.js"></script>
